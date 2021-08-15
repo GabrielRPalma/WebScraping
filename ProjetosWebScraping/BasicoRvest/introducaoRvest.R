@@ -103,7 +103,7 @@ dados <- as.data.frame(tabela.de.precos %>% html_element("table") %>% html_table
 dados$Produtos
 mean(dados$Preço)
 
-# Sessões
+# Sessões (Exemplo pacote rvest)
 s <- session("http://hadley.nz")
 s %>% session_jump_to("hadley-wickham.jpg") %>% session_jump_to("/") %>% session_history()
 s %>% read_html() %>% html_elements('a')

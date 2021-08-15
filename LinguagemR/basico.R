@@ -8,12 +8,12 @@ vetor <- c(1, 2, 3, 4)
 vetor*vetor
 vetor%*%vetor
 sum(vetor*vetor)
-vetor<-1:100
-elemento.selecionado <- 1
+vetor <- 1:100
+elemento.selecionado <- 10
 vetor[elemento.selecionado]
 mean(vetor)
 sd(vetor)
-
+var(vetor)
 round(2.333, 2)
 
 # Criando funções
@@ -21,6 +21,7 @@ round(2.333, 2)
 tags <- c("p", "p", "div", rep("section", 10),
           rep("h2", 200), rep("form", 12), rep("h1", 50))
 extrair.informacoes.do.html <- function(tags){
+
   tags.unicas <- unique(tags)
   frequencia.de.cada.tag <- table(tags)
   numero.de.tags <- sum(frequencia.de.cada.tag)
@@ -33,7 +34,7 @@ extrair.informacoes.do.html <- function(tags){
   return(resultado)
 }
 informacoes <- extrair.informacoes.do.html(tags)
-informacoes$numero.de.tags
+informacoes$frequencia.de.cada.tag
 
 # Sintaxes e declarações importantes
 numero.de.tags <- length(tags)
