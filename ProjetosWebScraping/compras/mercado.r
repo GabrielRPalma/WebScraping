@@ -1,7 +1,0 @@
-library(tidyverse)
-library(rvest)
-library(glue)
-library(polite)
-bow('https://www.walmart.com/grocery/cp/Back%20to%20School/1256468142623', force =F)
-bow('https://www.paodeacucar.com/busca?w=azeite&qt=12&p=2&gt=grid', force = F)
-bow('https://www.americanas.com.br/busca/azeite', force = T)

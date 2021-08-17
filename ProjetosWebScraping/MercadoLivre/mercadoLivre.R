@@ -3,7 +3,7 @@ library(rvest)
 library(glue)
 library(polite)
 # Passo 1: Analise o arquivo robots.txt e veja se você pode utilizar
-#o site 'https://ssearch.oreilly.com/?all=0;i=1;q=economy&act=pg_viewall' para o projeto
+#o site
 
 # Passo 2: Analise o site buscando as principais tags e atributos
 
