@@ -81,6 +81,7 @@ for (pagina in paginas){
     informacoes <- obter.dados.da.pagina(url)
     dados[indice,] <- informacoes
     Sys.sleep(10)
+    print(indice)
     indice <- indice + 1
   }
 
