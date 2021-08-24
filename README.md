@@ -1,3 +1,5 @@
+<p align="center"><a href="https://gabrielrpalma.herokuapp.com" target="_blank"><img src="https://gabrielrpalma.herokuapp.com/static/img/circles.png" width="200"></a></p>
+
 # Web scraping para economistas
 
 > Esse repositório contem todos os códigos criados para o curso "Web scraping para economistas". Os códigos contem desde uma breve apresentação de algumas funções da linguagem de programação R, bem como vários exemplos de raspagem de dados utilizando o pacote rvest e polite. Espero que algum desses exemplos possa lhe ajudar em sua jornada na raspagem de dados.
